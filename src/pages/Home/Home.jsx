@@ -27,10 +27,10 @@ function Home() {
         </div>
       </div>
       <div className="more-cards">
-        <TitleCards title={"Blockbuster Movies"}/>
-        <TitleCards title={"Only on Netflix"}/>
-        <TitleCards title={"Upcoming"}/>
-        <TitleCards title={"Top Pics for you"}/>
+        {/* <TitleCards title={"Blockbuster Movies"}/> */}
+        <TitleCards title={"Popular"} category={"popular"}/>
+        <TitleCards title={"Upcoming"} category={"upcoming"}/>
+        <TitleCards title={"Top Rated"} category={"top_rated"}/>
       </div>
       <Footer/>
     </div>
